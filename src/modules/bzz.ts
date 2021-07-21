@@ -18,7 +18,7 @@ import { AxiosRequestConfig } from 'axios'
 import { wrapBytesWithHelpers } from '../utils/bytes'
 import { Readable } from 'stream'
 
-const bzzEndpoint = '/bzz'
+const bzzEndpoint = '/stt'
 
 interface FileUploadHeaders extends UploadHeaders {
   'content-length'?: string
